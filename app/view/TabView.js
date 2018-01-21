@@ -1,13 +1,7 @@
 Ext.define('STouchApp.view.TabView', {
     extend: 'Ext.tab.Panel',
     xtype: 'tab-view',
-    requires: [
-        'Ext.TitleBar',
-        'Ext.Video'
-    ],
     initialize: function (config) {
-        //alert('TabView');
-        debugger;
         this.getTabs();
         this.getMoreTabs();
         Ext.apply(this, config);
@@ -17,9 +11,7 @@ Ext.define('STouchApp.view.TabView', {
         tabBarPosition: 'bottom',
         items: []
     },
-
     getTabs: function() {
-        //debugger;
         var tabStore = Ext.StoreManager.lookup('Tabs');
         var tabItems = [];
         var record = null;
@@ -33,7 +25,6 @@ Ext.define('STouchApp.view.TabView', {
             });
         }
     },
-
     getMoreTabs: function() {
         var tabStore = Ext.StoreManager.lookup('Tabs');
         var moreTabsStore = this.getMoreTabsStore(tabStore);
@@ -44,14 +35,12 @@ Ext.define('STouchApp.view.TabView', {
                     store: moreTabsStore
                 });
     },
-
     getMoreTabsStore: function(sourceStore) {
         // Does the shallow cloning of the records in TabsStore...
         var moreTabsStore = Ext.create ('Ext.data.Store', {
             model: sourceStore.model,
             storeId: 'moreTabsStore'
         });
-        debugger;
         for (var i = 4; i < sourceStore.getCount(); i++) {
             moreTabsStore.add(sourceStore.getAt(i));
         }
