@@ -1,0 +1,147 @@
+Sencha Cmd 6.2.2.36 - Crash report
+================================================
+An error occurred while executing the following command: ant sass
+
+Diagnostic information:
+=======================
+                         app.archivePath : archive                                           
+                      app.bootstrap.base : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp           
+                           app.build.dir : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/build/STouchApp
+                        app.cache.deltas : deltas                                            
+                        app.cache.enable : true                                              
+                           app.classpath : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/app.js,D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/app
+                         app.cmd.version : 6.2.2.36                                          
+                          app.config.dir : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp\.sencha\app
+                   app.cordova.config.id : com.domain.STouchApp                              
+                 app.cordova.config.name : STouchApp                                         
+                 app.cordova.config.path : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/cordova   
+               app.cordova.config.target :                                                   
+              app.cordova.config.verbose : false                                             
+                   app.cordova.js.0.path : cordova.js                                        
+               app.cordova.js.0.priority : 1000                                              
+                 app.cordova.js.0.remote : true                                              
+                   app.cordova.js.length : 1                                                 
+                 app.cordova.microloader : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp\.sencha\app/microloader/testing.js
+                 app.cordova.output.base : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/cordova/www
+         app.cordova.output.cache.enable : false                                             
+        app.cordova.output.deltas.enable : false                                             
+       app.cordova.output.manifest.embed : true                                              
+                                 app.dir : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp           
+                           app.framework : touch                                             
+                   app.framework.version : 2.4.2.571                                         
+                                  app.id : b8bc334d-d076-498d-ad8f-0d00af052f2b              
+                       app.indexHtmlPath : index.html                                        
+                                app.name : STouchApp                                         
+                         app.output.base : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/build/${build.environment}/STouchApp
+           app.output.microloader.enable : true                                              
+                  app.phonegap.config.id : com.domain.STouchApp                              
+                app.phonegap.config.name : STouchApp                                         
+                app.phonegap.config.path : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/phonegap  
+              app.phonegap.config.remote : false                                             
+             app.phonegap.config.verbose : false                                             
+                  app.phonegap.js.0.path : phonegap.js                                       
+              app.phonegap.js.0.priority : 1000                                              
+                app.phonegap.js.0.remote : true                                              
+                  app.phonegap.js.length : 1                                                 
+                app.phonegap.microloader : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp\.sencha\app/microloader/testing.js
+                app.phonegap.output.base : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/phonegap/www
+        app.phonegap.output.cache.enable : false                                             
+       app.phonegap.output.deltas.enable : false                                             
+      app.phonegap.output.manifest.embed : true                                              
+                      app.resource.paths :                                                   
+        app.slicer.js.0.isWidgetManifest : true                                              
+                    app.slicer.js.0.path : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/sass/example/custom.js
+                    app.slicer.js.length : 1                                                 
+                    buildenvironment.dir : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp           
+               buildenvironment.load.dir : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp\sass      
+                          cmd.config.dir : C:\Users\Chetan\bin\Sencha\Cmd\6.2.2.36           
+                                 cmd.dir : C:\Users\Chetan\bin\Sencha\Cmd\6.2.2.36           
+                    cmd.framework.minver : 2.2.0                                             
+                   cmd.framework.version : 2.99.99.99999                                     
+                            cmd.jvm.args : -Xms128m -Xmx1024m -Dapple.awt.UIElement=true     
+              cmd.merge.tool.args.araxis : -wait -merge -3 -a1 {base} {user} {generated} {out}
+              cmd.merge.tool.args.kdiff3 : {base} {user} {generated} -o {out}                
+             cmd.merge.tool.args.p4merge : {base} {user} {generated} {out}                   
+           cmd.merge.tool.args.smartsync : {user} {generated} {base}                         
+          cmd.merge.tool.args.sourcegear : --merge --result={out} {user} {base} {generated}  
+            cmd.merge.tool.args.tortoise : -base:{base} -theirs:{generated} -mine:{user} -merged:{out}
+                              cmd.minver : 3.0.0.0                                           
+                            cmd.platform : windows                                           
+                     cmd.unicode.escapes : C:\Users\Chetan\bin\Sencha\Cmd\6.2.2.36/unicode-escapes.json
+                             cmd.version : 6.2.2.36                                          
+                            cmd.web.port : 1841                                              
+                     config.skipDownload : true                                              
+                      config.skipInherit : false                                             
+                     framework.classpath : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp\touch/src 
+                    framework.cmd.minver : 3.1.0.53                                          
+                   framework.cmd.version : 4.0.5.87                                          
+                    framework.config.dir : C:\Users\Chetan\bin\Sencha\Cmd\6.2.2.36\plugins\touch\2.3
+                           framework.dir : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp\touch     
+                       framework.ignores : src/locale,src/platform,auth2/Auth.js,scroller/Infinite.js
+                          framework.name : touch                                             
+                  framework.packages.dir : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp\touch/packages
+             framework.preprocessor.opts : charts:no                                         
+                       framework.version : 2.4.2.571                                         
+                       inspector.address : http://localhost:1839/                            
+                          repo.local.dir : C:\Users\Chetan\bin\Sencha\Cmd\repo               
+        system.java.net.useSystemProxies : true                                              
+                     workspace.build.dir : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/build     
+                   workspace.cmd.version : 6.2.2.36                                          
+                    workspace.config.dir : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp\.sencha\workspace
+                           workspace.dir : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp           
+         workspace.frameworks.touch.path : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp\touch     
+      workspace.frameworks.touch.version : 2.4.2.571                                         
+                  workspace.packages.dir : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/packages/local,D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/packages
+              workspace.packages.extract : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/packages/remote
+                     workspace.theme.dir : D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/packages/local,D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp/packages/${args.themeName}
+
+Exception information:
+=======================
+java.io.FileNotFoundException: D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp\sass\build.xml (The system cannot find the file specified)
+     at org.apache.tools.ant.helper.ProjectHelper2.parse(ProjectHelper2.java:328)
+     at org.apache.tools.ant.helper.ProjectHelper2.parse(ProjectHelper2.java:178)
+     at org.apache.tools.ant.ProjectHelper.configureProject(ProjectHelper.java:82)
+     at com.sencha.ant.AntScript.init(AntScript.java:222)
+     at com.sencha.command.ant.AntCommand.execute(AntCommand.java:106)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+     at java.lang.reflect.Method.invoke(Unknown Source)
+     at com.sencha.util.MethodInvoker$Arguments.invoke(MethodInvoker.java:175)
+     at com.sencha.cli.Command.dispatch(Command.java:43)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.command.Sencha.dispatch(Sencha.java:79)
+     at com.sencha.command.Sencha.main(Sencha.java:147)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+     at java.lang.reflect.Method.invoke(Unknown Source)
+     at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
+     at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:101)
+     at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:26)
+   Caused by: D:\ExtJS_6.0\Sencha_Touch-2.4\STouchApp\sass\build.xml (The system cannot find the file specified)
+     at java.io.FileInputStream.open0(Native Method)
+     at java.io.FileInputStream.open(Unknown Source)
+     at java.io.FileInputStream.<init>(Unknown Source)
+     at org.apache.tools.ant.helper.ProjectHelper2.parse(ProjectHelper2.java:278)
+     at org.apache.tools.ant.helper.ProjectHelper2.parse(ProjectHelper2.java:178)
+     at org.apache.tools.ant.ProjectHelper.configureProject(ProjectHelper.java:82)
+     at com.sencha.ant.AntScript.init(AntScript.java:222)
+     at com.sencha.command.ant.AntCommand.execute(AntCommand.java:106)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+     at java.lang.reflect.Method.invoke(Unknown Source)
+     at com.sencha.util.MethodInvoker$Arguments.invoke(MethodInvoker.java:175)
+     at com.sencha.cli.Command.dispatch(Command.java:43)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.command.Sencha.dispatch(Sencha.java:79)
+     at com.sencha.command.Sencha.main(Sencha.java:147)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+     at java.lang.reflect.Method.invoke(Unknown Source)
+     at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
+     at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:101)
+     at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:26)
+
