@@ -38,10 +38,8 @@ Lets keep things in a convinient dir structure:
 3. Start the server: $ <b>sencha web start</b>
 4. Launch default URL to test whether the was created sucessfully: http://localhost:1841/
 
-After creating the project I created few new files and modified some files to build a basic skeliton/layout of the application ready.
+After creating the project, I created few new files and modified some files to build a basic skeleton/layout of the application ready.
 At this point point of time I think it is important for you to take a look to those changes and understand them to get more excitement for rest of the learnings!
-
-Those chnages can be viewed here: https://github.com/FNUChetan/SenchaTouchAppRepo/tree/df0d9f4a48dfa5b2e79aeca112523580ca4d39ea
 
 <b>Files Modified:</b>
 1. <a href="https://github.com/FNUChetan/SenchaTouchAppRepo/blob/df0d9f4a48dfa5b2e79aeca112523580ca4d39ea/app.js">SenchaTouchAppRepo/app.js</a><br/>
