@@ -61,5 +61,16 @@ At this point point of time I think it is important for you to take a look to th
 5. <a href="https://github.com/FNUChetan/SenchaTouchAppRepo/blob/df0d9f4a48dfa5b2e79aeca112523580ca4d39ea/app/controller/MainController.js">SenchaTouchAppRepo/app/controller/MainController.js</a><br/>
 	Nothing much done here except the loading of store's and the model's JS files as the controller loads. Plan is to write all home screen related logics to be written here.
 
+Writing Custom CSS:
+-------------------
+You can write your custom css or import external css in <AppHomeDir>\resources\sass\app.scss. You can override css variables of sencha componets here.
+After making change in that file, you need to compile the .scss files which will create/update the <AppHomeDir>/resources/css/app.css file.<br/>
+<b>Command used to compile the sass files:</b><br/>
+	$ <b>compass compile resources/sass</b><br/>
 
+<b>NOTE(s)/ Knwon Issues:</b><br/>
+1. You should check compass extension while installing sencha cmd.
+2. While running "compass compile resources/sass" command, if you get any error saying compass not found, then run "gem install compass --version 0.12.2". Also uninstall all other versions of compass by using command: "gem unistall compass"-> It will ask you to enter which version you would like to uninstall.
+3. If you get any error like "blueprint/typography not found", then run "gem install compass-blueprint".<br/>
 
+I had to change the style of header. I have have used custom css to do that. The changes can can be seen by clicking <a href="https://github.com/FNUChetan/SenchaTouchAppRepo/commit/db7e9bacd17f7719c06b879434e49162a44f91da">here</a><br/>
