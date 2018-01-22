@@ -5,7 +5,7 @@ About
 Hello Everyone!!
 
 My name is FNU Chetan. I am working as a Sencha Developer over the last 4 years. I found this framework as one of the most organized framework.
-As a tribute of my love to this framework, this is an inititaive to help people learn with best of the ease.
+As a tribute of my love to this framework, this is an initiative to help people learn with best of the ease.
 
 I am going to describe you the concepts and steps involved to create the project from scratch. I will try to adhere to all the best practices!!
 
