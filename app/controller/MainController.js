@@ -1,6 +1,6 @@
 /**
  * STouchApp.controller.MainController is the extension of Ext.app.Controller.
- * This is to load tabs object coming from the server or a json file.
+ * Plan is to write all home screen related logics to be written here.
  */
 Ext.define('STouchApp.controller.MainController', {
     extend: 'Ext.app.Controller',
