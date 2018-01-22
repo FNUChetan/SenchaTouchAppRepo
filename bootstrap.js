@@ -672,6 +672,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "STouchApp.model.Tab": [],
   "STouchApp.store.Tabs": [],
   "STouchApp.view.Main": [],
+  "STouchApp.view.MoreTabs": [],
   "STouchApp.view.TabView": []
 });
 
@@ -1406,6 +1407,9 @@ Ext.ClassManager.addNameAliasMappings({
   "STouchApp.store.Tabs": [],
   "STouchApp.view.Main": [
     "widget.main"
+  ],
+  "STouchApp.view.MoreTabs": [
+    "widget.more-tabs"
   ],
   "STouchApp.view.TabView": [
     "widget.tab-view"
