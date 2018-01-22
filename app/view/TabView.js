@@ -1,9 +1,13 @@
+/**
+ * STouchApp.view.TabView is the extension of Ext.tab.Panel.
+ * It is to create the tabs by reading the tab names from a store on the fly.
+ */
 Ext.define('STouchApp.view.TabView', {
     extend: 'Ext.tab.Panel',
     xtype: 'tab-view',
     initialize: function (config) {
-        this.getTabs();
-        this.getMoreTabs();
+        this.addHomeScreenTabs();
+        this.addMoreTabsScreen();
         Ext.apply(this, config);
         this.callParent(arguments);
     },
@@ -11,7 +15,10 @@ Ext.define('STouchApp.view.TabView', {
         tabBarPosition: 'bottom',
         items: []
     },
-    getTabs: function() {
+    /**
+     * Creates the tab which will be shown in the home screen.
+     */
+    addHomeScreenTabs: function() {
         var tabStore = Ext.StoreManager.lookup('Tabs');
         var tabItems = [];
         var record = null;
@@ -25,7 +32,10 @@ Ext.define('STouchApp.view.TabView', {
             });
         }
     },
-    getMoreTabs: function() {
+    /**
+     * Creates the list of options to be shown in MoreTabs screen.
+     */
+    addMoreTabsScreen: function() {
         var tabStore = Ext.StoreManager.lookup('Tabs');
         var moreTabsStore = this.getMoreTabsStore(tabStore);
         this.add({  title: 'more',
@@ -35,8 +45,12 @@ Ext.define('STouchApp.view.TabView', {
                     store: moreTabsStore
                 });
     },
+    /**
+     * Does the shallow cloning of the more tabs records in TabsStore.
+     * @param {STouchApp.store.Tabs} sourceStore
+     * @return {Ext.data.Store} moreTabsStore
+     */
     getMoreTabsStore: function(sourceStore) {
-        // Does the shallow cloning of the records in TabsStore...
         var moreTabsStore = Ext.create ('Ext.data.Store', {
             model: sourceStore.model,
             storeId: 'moreTabsStore'

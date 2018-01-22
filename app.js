@@ -21,8 +21,8 @@ Ext.application({
         'MoreTabs',
         'TabView',
         'Main'
-    ],
-    controllers: ['MainController'],
+    ],// These entries are to load JS files of all the view beforehand.
+    controllers: ['MainController'],// These entry is to load JS files of the controller beforehand.
 
     icon: {
         '57': 'resources/icons/Icon.png',
@@ -42,6 +42,7 @@ Ext.application({
         '1496x2048': 'resources/startup/1496x2048.png'
     },
 
+    // This is the entry point of the application.
     launch: function() {
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();

@@ -1,3 +1,8 @@
+/**
+ * STouchApp.store.Tabs is the extension of Ext.data.Store.
+ * Uses: STouchApp.model.Tab
+ * This is to load tabs object coming from the server or a json file.
+ */
 Ext.define('STouchApp.store.Tabs', {
     extend: 'Ext.data.Store',
     model: 'STouchApp.model.Tab',

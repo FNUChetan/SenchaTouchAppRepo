@@ -1,3 +1,8 @@
+/**
+ * STouchApp.model.Tab is the extension of Ext.data.Model.
+ * It is to keep the structure of data expected in the tabs object
+ * coming from the server.
+ */
 Ext.define('STouchApp.model.Tab', {
     extend: 'Ext.data.Model',
     fields: [
