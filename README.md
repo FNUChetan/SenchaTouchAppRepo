@@ -7,7 +7,25 @@ Hello Everyone!!
 My name is FNU Chetan. I am working as a Sencha Developer over the last 4 years. I found this framework as one of the most organized framework.
 As a tribute of my love to this framework, this is an initiative to help people learn with best of the ease.
 
-I am going to describe you the concepts and steps involved to create the project from scratch. I will try to adhere to all the best practices!!
+This application is going to be an application where people can sell their cars.
+
+Contents:
+----------
+
+1.  How to set up the Sencha Development Environment in your Machine.
+2.  Building the Sencha Touch App from scratch.
+3.  Writing Custom CSS.
+4.  Using Sencha Inbuilt Components like TabPanel, Carousel, List, Forms and Chart.
+5.  Using view, stores, controllers and models (MVC).
+6.  Creating common and reusable components to have it in multiple screens.
+7.  Writing your custom theme.
+8.  Building packages.
+9.  Dealing with various devices.
+10. Building Production ready code.
+11. Generating Android instalable file and testing on Android phone.
+12. Migrating it to ExtJS 6 Universal Application.<br/>
+
+I am going to describe the concepts and steps involved to create the project from scratch. I will try to adhere to all the best practices. For your ease, every file and and function in the project will have a proper description in their comments section.!!<br/>
 
 To make your learning easy, you can go to the commits to find following things:
 1. To see the code changes done that commit.
