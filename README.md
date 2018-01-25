@@ -7,7 +7,8 @@ Hello Everyone!!
 My name is FNU Chetan. I am working as a Sencha Developer over the last 4 years. I found this framework as one of the most organized framework.
 As a tribute of my love to this framework, this is an initiative to help people learn with best of the ease.
 
-This application is going to be an application where people can sell their cars.
+This application is going to be an application where people can sell their cars.<br/>
+<b>Scroll up or <a href="https://github.com/FNUChetan/SenchaTouchAppRepo">click here</a> to see, clone or download and reuse the Project's code.</b><br/>
 
 Contents:
 ----------
