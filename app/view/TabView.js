@@ -5,6 +5,10 @@
 Ext.define('STouchApp.view.TabView', {
     extend: 'Ext.tab.Panel',
     xtype: 'tab-view',
+    // The requires entries will load the files beforehand.
+    requires: [
+        'STouchApp.view.HomeTab'
+    ],
     initialize: function (config) {
         this.addHomeScreenTabs();
         this.addMoreTabsScreen();
@@ -19,10 +23,13 @@ Ext.define('STouchApp.view.TabView', {
      * Creates the tab which will be shown in the home screen.
      */
     addHomeScreenTabs: function() {
+        var me = this;
         var tabStore = Ext.StoreManager.lookup('Tabs');
         var tabItems = [];
         var record = null;
-        for (var i = 0; i <= 2; i++) {
+        // Add the home tab which contains the carousel to show slide show on top of the home screen.
+        me.addHomeTab(tabStore.getAt(0));
+        for (var i = 1; i <= 2; i++) {
             record = tabStore.getAt(i);
             this.add({
                 itemId: record.get('tabId'),
@@ -41,7 +48,7 @@ Ext.define('STouchApp.view.TabView', {
         this.add({  title: 'more',
                     iconCls: 'more',
                     xtype: 'more-tabs',
-                    itemId: 'playerList',
+                    itemId: 'moreTabs',
                     store: moreTabsStore
                 });
     },
@@ -59,5 +66,20 @@ Ext.define('STouchApp.view.TabView', {
             moreTabsStore.add(sourceStore.getAt(i));
         }
         return moreTabsStore;
+    },
+
+    /**
+     * Adds a tab by creating an object of home-tab which internaly
+     * creates and have an object of banner-carousel where a slide show
+     * of images will be shown.
+     * @param {STouchApp.store.Tabs} tabData
+     */
+    addHomeTab: function(tabData) {
+        this.add([{
+            itemId: tabData.get('tabId'),
+            title: tabData.get('tabName'),
+            iconCls: tabData.get('iconCls'),
+            xtype: 'home-tab'
+        }])
     }
 });

@@ -4,13 +4,29 @@
 $base-color: #2a5e8c;// Overriding the Ext Js css variable.
 @import 'sencha-touch/default';
 @import 'sencha-touch/default/all';
-// Custom code goes here..
+
+// Custom CSS goes here...
+
+// mixin to set background in the carousel.
+@mixin add-carousel-banner($img, $x, $y) {
+    background-image: url($img);
+    background-repeat: no-repeat;
+    background-size: $x $y;
+}
 .header-left-cls {
-	background-color: red; border-left: 6px solid #2a5e8c;
+    background-color: red; border-left: 6px solid #2a5e8c;
 }
 .header-right-cls {
-	background-color: #2a5e8c; border-left: 6px solid red; color: white;
+    background-color: #2a5e8c; border-left: 6px solid red; color: white;
 }
-
+.home-banner-1 {
+    @include add-carousel-banner('../images/girl-with-phone.jpeg', '70%', '100%');
+}
+.home-banner-2 {
+    @include add-carousel-banner('../images/car.jpg', '70%', '100%');
+}
+.home-banner-3 {
+    @include add-carousel-banner('../images/cash.jpeg', '70%', '100%');
+}
 // Examples of using the icon mixin:
 // @include icon('user');

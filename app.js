@@ -22,7 +22,7 @@ Ext.application({
         'TabView',
         'Main'
     ],// These entries are to load JS files of all the view beforehand.
-    controllers: ['MainController'],// These entry is to load JS files of the controller beforehand.
+    controllers: ['MainController', 'BannerCarouselController'],// These entry is to load JS files of the controller beforehand.
 
     icon: {
         '57': 'resources/icons/Icon.png',
