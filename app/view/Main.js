@@ -19,7 +19,7 @@ Ext.define('STouchApp.view.Main', {
                     {
                         xtype: 'container',
                         flex: .5,
-                        html: "<img src='resources/icons/umbrella.jpg'>",
+                        html: "<img src='resources/images/umbrella.jpg'>",
                         cls: 'header-left-cls'// custom css defined in app.scss
                     },
                     {
