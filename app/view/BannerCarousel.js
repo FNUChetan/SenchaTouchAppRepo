@@ -18,11 +18,11 @@ Ext.define('STouchApp.view.BannerCarousel', {
         },
         {
             xtype: 'container',
-            cls: 'home-banner-2'// This css class sets the background image of the first slide.
+            cls: 'home-banner-2'// This css class sets the background image of the second slide.
         },
         {
             xtype: 'container',
-            cls: 'home-banner-3'// This css class sets the background image of the first slide.
+            cls: 'home-banner-3'// This css class sets the background image of the third slide.
         }
     ]
     }
