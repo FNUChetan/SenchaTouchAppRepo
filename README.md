@@ -100,7 +100,7 @@ Create Carousel:
   <li>I had to show an image slide show on the top section of the home screen.</li>
   <li><b><a href="https://github.com/FNUChetan/SenchaTouchAppRepo/commit/426abc93560b77b7a708df835b14033d0cfa8c0d">Click here</a></b> to see the changes.</li>
 </ul>
-<b>NOTE:</b> For better understanding, you should read the <a href="https://github.com/FNUChetan/SenchaTouchAppRepo#creating-a-sencha-touch-project-from-scratch">Creating a Sencha Touch project from scratch</a> section by scrolling up, before going through the carousel changes.
+<b>NOTE:</b> For better understanding, you should read the <a href="https://github.com/FNUChetan/SenchaTouchAppRepo#creating-a-sencha-touch-project-from-scratch">Creating a Sencha Touch project from scratch</a> section by scrolling up, before going through the carousel changes.<br/>
 
 <b>Screen recording of the carousel:</b><br/>
 <img src="https://github.com/FNUChetan/SenchaTouchAppRepo/blob/master/demo-gifs-not-part-of-the-project/Carousel.gif"/>
