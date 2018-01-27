@@ -102,5 +102,5 @@ Create Carousel:
 </ul>
 <b>NOTE:</b> For better understanding, you should read the <a href="https://github.com/FNUChetan/SenchaTouchAppRepo#creating-a-sencha-touch-project-from-scratch">Creating a Sencha Touch project from scratch</a> section by scrolling up, before going through the carousel changes.
 
-Screen recording of the carousel:
+<b>Screen recording of the carousel:</b><br/>
 <img src="https://github.com/FNUChetan/SenchaTouchAppRepo/blob/master/demo-gifs-not-part-of-the-project/Carousel.gif"/>
