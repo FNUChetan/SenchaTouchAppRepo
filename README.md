@@ -93,3 +93,11 @@ After making change in that file, you need to compile the .scss files which will
 3. If you get any error like "blueprint/typography not found", then run "gem install compass-blueprint".<br/>
 
 I had to change the style of header. I have have used custom css to do that. The changes can can be seen by clicking <a href="https://github.com/FNUChetan/SenchaTouchAppRepo/commit/db7e9bacd17f7719c06b879434e49162a44f91da">here</a><br/>
+
+Create Carousel:
+-----------------------
+<ul>
+  <li>I had to show an image slide show on the top section of the home screen.</li>
+  <li><b><a href="https://github.com/FNUChetan/SenchaTouchAppRepo/commit/426abc93560b77b7a708df835b14033d0cfa8c0d">Click here</a></b> to see the changes.</li>
+</ul>
+<b>NOTE:</b> For better understanding, you should read the <a href="">Creating a Sencha Touch project from scratch</a> section by scrolling up, before going through the carousel changes.
