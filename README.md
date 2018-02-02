@@ -105,4 +105,4 @@ Create Carousel:
 <br/>
 
 <b><u>Screen recording of the carousel [In real device it looks nicer than what you see here...]</u>:</b><br/>
-<img src="https://github.com/FNUChetan/SenchaTouchAppRepo/blob/master/demo-gifs-not-part-of-the-project/Carousel.gif"/>
+<img src="https://github.com/FNUChetan/SenchaTouchAppRepo/blob/master/demo-gifs-not-part-of-the-project/Carousel.gif" width="300" height="500"/>
